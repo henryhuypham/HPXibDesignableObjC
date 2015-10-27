@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HPXibDesignableObjC: a64090c7b57054df4296a61c8fa4a04a22238bdc
+  HPXibDesignableObjC: a3b317de0dbaa57e5c8791ac1d76f9f58cc5a5ba
 
 COCOAPODS: 0.39.0

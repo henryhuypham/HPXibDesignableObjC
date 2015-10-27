@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B81820F9F30227AB75980AF /* libPods-HPXibDesignableObjC_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 230A7A4783BD0377BC70586A /* libPods-HPXibDesignableObjC_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,8 +22,9 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		9289C4B8D1B7D224EE921386 /* Pods_HPXibDesignableObjC_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E48941561B02A2010B6454E /* Pods_HPXibDesignableObjC_Example.framework */; };
-		CD6F36D12900779737479884 /* Pods_HPXibDesignableObjC_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24DA6290D9A76EDA90D5DF79 /* Pods_HPXibDesignableObjC_Tests.framework */; };
+		8759344E1BE0004C00C7A1A2 /* HPRenderedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8759344C1BE0004C00C7A1A2 /* HPRenderedView.m */; };
+		8759344F1BE0004C00C7A1A2 /* HPRenderedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8759344D1BE0004C00C7A1A2 /* HPRenderedView.xib */; };
+		D204750CE7ED318466520BC6 /* libPods-HPXibDesignableObjC_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1443F07F9664AD1B132C78 /* libPods-HPXibDesignableObjC_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +39,8 @@
 
 /* Begin PBXFileReference section */
 		0BC48D66BC7DC54F13A6686A /* Pods-HPXibDesignableObjC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPXibDesignableObjC_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HPXibDesignableObjC_Tests/Pods-HPXibDesignableObjC_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0E48941561B02A2010B6454E /* Pods_HPXibDesignableObjC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HPXibDesignableObjC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		24DA6290D9A76EDA90D5DF79 /* Pods_HPXibDesignableObjC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HPXibDesignableObjC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		230A7A4783BD0377BC70586A /* libPods-HPXibDesignableObjC_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HPXibDesignableObjC_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E1443F07F9664AD1B132C78 /* libPods-HPXibDesignableObjC_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HPXibDesignableObjC_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F332E6622E1900510689DFA /* Pods-HPXibDesignableObjC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPXibDesignableObjC_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HPXibDesignableObjC_Example/Pods-HPXibDesignableObjC_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		53A9A343883C1D356FA75A1C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HPXibDesignableObjC_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPXibDesignableObjC_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +64,9 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6513BF4052A81BCD9A520B94 /* Pods-HPXibDesignableObjC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPXibDesignableObjC_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HPXibDesignableObjC_Example/Pods-HPXibDesignableObjC_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8759344B1BE0004C00C7A1A2 /* HPRenderedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPRenderedView.h; sourceTree = "<group>"; };
+		8759344C1BE0004C00C7A1A2 /* HPRenderedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPRenderedView.m; sourceTree = "<group>"; };
+		8759344D1BE0004C00C7A1A2 /* HPRenderedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HPRenderedView.xib; sourceTree = "<group>"; };
 		91617C8FA0E7B5B50941F592 /* Pods-HPXibDesignableObjC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPXibDesignableObjC_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HPXibDesignableObjC_Tests/Pods-HPXibDesignableObjC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9F2775E123771CA1872587F5 /* HPXibDesignableObjC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HPXibDesignableObjC.podspec; path = ../HPXibDesignableObjC.podspec; sourceTree = "<group>"; };
 		FAD8542428B42C67BEADC401 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -75,7 +80,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				9289C4B8D1B7D224EE921386 /* Pods_HPXibDesignableObjC_Example.framework in Frameworks */,
+				3B81820F9F30227AB75980AF /* libPods-HPXibDesignableObjC_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +91,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				CD6F36D12900779737479884 /* Pods_HPXibDesignableObjC_Tests.framework in Frameworks */,
+				D204750CE7ED318466520BC6 /* libPods-HPXibDesignableObjC_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,8 +126,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				0E48941561B02A2010B6454E /* Pods_HPXibDesignableObjC_Example.framework */,
-				24DA6290D9A76EDA90D5DF79 /* Pods_HPXibDesignableObjC_Tests.framework */,
+				230A7A4783BD0377BC70586A /* libPods-HPXibDesignableObjC_Example.a */,
+				2E1443F07F9664AD1B132C78 /* libPods-HPXibDesignableObjC_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -130,11 +135,14 @@
 		6003F593195388D20070C39A /* Example for HPXibDesignableObjC */ = {
 			isa = PBXGroup;
 			children = (
+				8759344B1BE0004C00C7A1A2 /* HPRenderedView.h */,
+				8759344C1BE0004C00C7A1A2 /* HPRenderedView.m */,
+				8759344D1BE0004C00C7A1A2 /* HPRenderedView.xib */,
+				6003F5A5195388D20070C39A /* HPViewController.h */,
+				6003F5A6195388D20070C39A /* HPViewController.m */,
 				6003F59C195388D20070C39A /* HPAppDelegate.h */,
 				6003F59D195388D20070C39A /* HPAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* HPViewController.h */,
-				6003F5A6195388D20070C39A /* HPViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -244,7 +252,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = HP;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Huy Pham";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
@@ -279,6 +287,7 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				8759344F1BE0004C00C7A1A2 /* HPRenderedView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +402,7 @@
 				6003F59E195388D20070C39A /* HPAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* HPViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				8759344E1BE0004C00C7A1A2 /* HPRenderedView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +462,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -516,6 +527,7 @@
 				GCC_PREFIX_HEADER = "HPXibDesignableObjC/HPXibDesignableObjC-Prefix.pch";
 				INFOPLIST_FILE = "HPXibDesignableObjC/HPXibDesignableObjC-Info.plist";
 				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -531,6 +543,7 @@
 				GCC_PREFIX_HEADER = "HPXibDesignableObjC/HPXibDesignableObjC-Prefix.pch";
 				INFOPLIST_FILE = "HPXibDesignableObjC/HPXibDesignableObjC-Info.plist";
 				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -553,6 +566,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HPXibDesignableObjC_Example.app/HPXibDesignableObjC_Example";
 				WRAPPER_EXTENSION = xctest;
@@ -572,6 +586,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HPXibDesignableObjC_Example.app/HPXibDesignableObjC_Example";
 				WRAPPER_EXTENSION = xctest;
