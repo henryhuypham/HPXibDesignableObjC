@@ -11,4 +11,14 @@
 IB_DESIGNABLE
 @implementation HPRenderedView
 
+- (void)setContent:(NSString *)content {
+    _content = content;
+    self.contentLabel.text = content;
+}
+
+- (void)setContentVisible:(BOOL)contentVisible {
+    _contentVisible = contentVisible;
+    self.contentLabel.hidden = !contentVisible;
+}
+
 @end

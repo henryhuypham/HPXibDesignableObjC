@@ -11,4 +11,9 @@
 
 @interface HPRenderedView : HPXibDesignableObjC
 
+@property (weak, nonatomic) IBOutlet UILabel            *contentLabel;
+
+@property (nonatomic, assign) IBInspectable NSString    *content;
+@property (nonatomic, assign) IBInspectable BOOL        contentVisible;
+
 @end
