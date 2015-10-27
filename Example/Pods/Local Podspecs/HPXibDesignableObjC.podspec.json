@@ -1,0 +1,25 @@
+{
+  "name": "HPXibDesignableObjC",
+  "version": "0.1.0",
+  "summary": "A short description of HPXibDesignableObjC.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/HPXibDesignableObjC",
+  "license": "MIT",
+  "authors": {
+    "Huy Pham": "huyphamthanh8290@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/HPXibDesignableObjC.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "HPXibDesignableObjC": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+framework module HPXibDesignableObjC {
+  umbrella header "HPXibDesignableObjC-umbrella.h"
+
+  export *
+  module * { export * }
+}

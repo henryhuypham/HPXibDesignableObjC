@@ -1,0 +1,14 @@
+PODS:
+  - HPXibDesignableObjC (0.1.0)
+
+DEPENDENCIES:
+  - HPXibDesignableObjC (from `../`)
+
+EXTERNAL SOURCES:
+  HPXibDesignableObjC:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HPXibDesignableObjC: a64090c7b57054df4296a61c8fa4a04a22238bdc
+
+COCOAPODS: 0.39.0
