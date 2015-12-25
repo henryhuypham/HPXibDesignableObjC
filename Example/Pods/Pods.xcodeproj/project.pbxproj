@@ -10,6 +10,8 @@
 		0FCDD25C752761D6BB509E04ADF0A29C /* HPXibDesignableObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = 57150D4064FFE601DC7B299C73DEFC95 /* HPXibDesignableObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5046E6E748BFC06DBCC58DCE403FC444 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		55F5D636A65CD3C1BB85BA43DF5BD520 /* Pods-HPXibDesignableObjC_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 902391D0DCE025A61862FAB5CE27DAFF /* Pods-HPXibDesignableObjC_Example-dummy.m */; };
+		87EA879A1C2D45B000B00845 /* HPControlXibDesignableObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = 87EA87981C2D45B000B00845 /* HPControlXibDesignableObjC.h */; };
+		87EA879B1C2D45B000B00845 /* HPControlXibDesignableObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EA87991C2D45B000B00845 /* HPControlXibDesignableObjC.m */; };
 		A651ACDFAF7FCE9BDCDF98BC773CED44 /* HPXibDesignableObjC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F75F517EC92323E460C0FA9D49256D8 /* HPXibDesignableObjC-dummy.m */; };
 		AD0996383928B27391D00CD949107B21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		B37E94C1CC9EDC57D0EE48DEB2BE9A9F /* Pods-HPXibDesignableObjC_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E7227EC5DD11D170B039D7BC69CDE6 /* Pods-HPXibDesignableObjC_Tests-dummy.m */; };
@@ -55,6 +57,8 @@
 		57D791B3786BD0469E91A73A4C9AB576 /* Pods-HPXibDesignableObjC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HPXibDesignableObjC_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71C08D9DC4A503C0230FE7B431C9A7EA /* Pods-HPXibDesignableObjC_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HPXibDesignableObjC_Example-frameworks.sh"; sourceTree = "<group>"; };
 		79AE77B15FDC7727EB514475731988D4 /* Pods-HPXibDesignableObjC_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HPXibDesignableObjC_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		87EA87981C2D45B000B00845 /* HPControlXibDesignableObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPControlXibDesignableObjC.h; sourceTree = "<group>"; };
+		87EA87991C2D45B000B00845 /* HPControlXibDesignableObjC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPControlXibDesignableObjC.m; sourceTree = "<group>"; };
 		8848E873B4FF9929C40174BC7AC72A6E /* libHPXibDesignableObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHPXibDesignableObjC.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F75F517EC92323E460C0FA9D49256D8 /* HPXibDesignableObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HPXibDesignableObjC-dummy.m"; sourceTree = "<group>"; };
 		902391D0DCE025A61862FAB5CE27DAFF /* Pods-HPXibDesignableObjC_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HPXibDesignableObjC_Example-dummy.m"; sourceTree = "<group>"; };
@@ -181,6 +185,8 @@
 			children = (
 				57150D4064FFE601DC7B299C73DEFC95 /* HPXibDesignableObjC.h */,
 				25A3034579191EF8E4AEB7DB8BA5E0D7 /* HPXibDesignableObjC.m */,
+				87EA87981C2D45B000B00845 /* HPControlXibDesignableObjC.h */,
+				87EA87991C2D45B000B00845 /* HPControlXibDesignableObjC.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87EA879A1C2D45B000B00845 /* HPControlXibDesignableObjC.h in Headers */,
 				0FCDD25C752761D6BB509E04ADF0A29C /* HPXibDesignableObjC.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -377,6 +384,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87EA879B1C2D45B000B00845 /* HPControlXibDesignableObjC.m in Sources */,
 				A651ACDFAF7FCE9BDCDF98BC773CED44 /* HPXibDesignableObjC-dummy.m in Sources */,
 				DA46CEBF716D04FD6BA87215641C4C13 /* HPXibDesignableObjC.m in Sources */,
 			);
